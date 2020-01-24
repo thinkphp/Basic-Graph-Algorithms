@@ -15,7 +15,7 @@
    Nodes and Edges can have some auxiliary information.
   
   
-   ii) Lots of problems and formulated in terms of Graphs
+   ii) Lots of problems formulated and solved in terms of Graphs
    - Shortest path problems.
    - Network flow problemes.
    - Matching problemes.
