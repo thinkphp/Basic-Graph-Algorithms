@@ -2,11 +2,11 @@
 
 ### Outline
 
-1. Graphs
-2. Why Study Graphs
-3. Storing Graphs
-4. Traversals
-5. Topological Sort
+i. Graphs
+ii. Why Study Graphs
+iii. Storing Graphs
+iiii. Traversals
+iiiii. Topological Sort
 
 
    i) An abstract way of representing connectivity using nodes (also called vertices) and edges.
@@ -23,5 +23,13 @@
    - Graph coloring problem.
    - Traveling salesman problem ( still unsolved)
    - and many more.
+   
+   iii) Need to store both the set of nodes V and the set of edges E
+        - nodes can be store in an array.
+        - edges must be stored in some other way.
+        Want to support operations such as:
+        - retrieving all edges incident to a particular node.
+        - testing if given two nodes are directy connected.
+        Use either Adjacency Matrix or adjacency list to store the edges.
 
 
