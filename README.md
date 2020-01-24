@@ -17,8 +17,8 @@
   
    ii) Lots of problems formulated and solved in terms of Graphs
    - Shortest path problems.
-   - Network flow problemes.
-   - Matching problemes.
+   - Network flow problems.
+   - Matching problems.
    - 2-SAT problem.
    - Graph coloring problem.
    - Traveling salesman problem ( still unsolved)
