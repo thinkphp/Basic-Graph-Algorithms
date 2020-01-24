@@ -5,17 +5,17 @@
 1. Graphs
 2. Why Study Graphs
 3. Storing Graphs
-4. Traversals
+4. Graph Traversal
 5. Topological Sort
 
 
-10. An abstract way of representing connectivity using nodes (also called vertices) and edges.
+1. An abstract way of representing connectivity using nodes (also called vertices) and edges.
    We will label the nodes from 1 to n.
    m edges connect some pairs of nodes. Edges can be either one-directional or bidirectional.
    Nodes and Edges can have some auxiliary information.
   
   
- 20. Lots of problems formulated and solved in terms of Graphs
+2. Lots of problems formulated and solved in terms of Graphs
        - Shortest path problems.
        - Network flow problems.
        - Matching problems.
@@ -24,7 +24,7 @@
        - Traveling salesman problem ( still unsolved)
        - and many more.
    
- 30. Need to store both the set of nodes V and the set of edges E
+ 3. Need to store both the set of nodes V and the set of edges E
  
        * nodes can be store in an array.
        * edges must be stored in some other way.    
@@ -35,4 +35,11 @@
        * testing if given two nodes are directy connected.
         Use either Adjacency Matrix or adjacency list to store the edges.
 
+  4. Graph Traversal
+  
+       * The most basic graph algorithm that visits the nodes of a graph in a certain order. 
+       * Used as a subroutine in many other algorithms.
 
+       We will cover two algorithms:
+       * Depth First Search: uses recursion Stack.
+       * Breadth First Search: uses queue.
