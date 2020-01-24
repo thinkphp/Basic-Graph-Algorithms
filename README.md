@@ -16,13 +16,13 @@
   
   
 2. Lots of problems formulated and solved in terms of Graphs
-       - Shortest path problems.
-       - Network flow problems.
-       - Matching problems.
-       - 2-SAT problem.
-       - Graph coloring problem.
-       - Traveling salesman problem ( still unsolved)
-       - and many more.
+       * Shortest path problems.
+       * Network flow problems.
+       * Matching problems.
+       * 2-SAT problem.
+       * Graph coloring problem.
+       * Traveling salesman problem ( still unsolved)
+       * and many more.
    
  3. Need to store both the set of nodes V and the set of edges E
  
@@ -33,7 +33,14 @@
         
        * retrieving all edges incident to a particular node.
        * testing if given two nodes are directy connected.
-        Use either Adjacency Matrix or adjacency list to store the edges.
+       
+         Use either Adjacency Matrix or adjacency list to store the edges.
+         
+         Adjacency Matrix: An easy way to store connectivity information.
+         
+          
+         
+         Adjacency List
 
   4. Graph Traversal
   
