@@ -24,9 +24,11 @@
    - Traveling salesman problem ( still unsolved)
    - and many more.
    
-   iii) Need to store both the set of nodes V and the set of edges E
+   iii) 
+        Need to store both the set of nodes V and the set of edges E
         - nodes can be store in an array.
         - edges must be stored in some other way.
+        
         Want to support operations such as:
         - retrieving all edges incident to a particular node.
         - testing if given two nodes are directy connected.
