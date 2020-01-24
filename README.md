@@ -2,11 +2,11 @@
 
 ### Outline
 
-i. Graphs
-ii. Why Study Graphs
-iii. Storing Graphs
-iiii. Traversals
-iiiii. Topological Sort
+i) Graphs
+ii) Why Study Graphs
+iii) Storing Graphs
+iiii) Traversals
+iiiii) Topological Sort
 
 
    i) An abstract way of representing connectivity using nodes (also called vertices) and edges.
