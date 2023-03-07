@@ -7,7 +7,7 @@
 * 5) Topological Sort
 
 
-1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
+* 1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
    We will label the nodes from 1 to n.
    m edges connect some pairs of nodes. Edges can be either one-directional or bidirectional.
    Nodes and Edges can have some auxiliary information.
@@ -17,7 +17,7 @@
    
   
   
-2) Lots of problems formulated and solved in terms of Graphs
+* 2) Lots of problems formulated and solved in terms of Graphs
 
        * Shortest path problems.
        * Network flow problems.
