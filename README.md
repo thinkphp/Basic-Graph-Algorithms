@@ -4,10 +4,11 @@
 * 2) Why Study Graphs
 * 3) Storing Graphs (Adjcency Matrix and ADjcency List)
 * 4) Graph Traversal
-* 5) Topological Sort
-* 6) Eulerian Circuit
-* 7) Minimum Spaning Tree
-* 8) Strongly Connected Components
+* 5) Special Graphs
+* 6) Topological Sort
+* 7) Eulerian Circuit
+* 8) Minimum Spaning Tree
+* 9) Strongly Connected Components
 
 
 * 1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
