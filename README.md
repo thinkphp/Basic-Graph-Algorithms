@@ -2,7 +2,7 @@
 
 * 1) Introduction and history
 * 2) Why Study Graphs
-* 3) Storing Graphs
+* 3) Storing Graphs (Adjcency Matrix and ADjcency List)
 * 4) Graph Traversal
 * 5) Topological Sort
 * 6) Eulerian Circuit
