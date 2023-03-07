@@ -1,10 +1,10 @@
 # Basic Graph Algorithms
 
-1) Graphs
-2) Why Study Graphs
-3) Storing Graphs
-4) Graph Traversal
-5) Topological Sort
+* 1) Introduction and history
+* 2) Why Study Graphs
+* 3) Storing Graphs
+* 4) Graph Traversal
+* 5) Topological Sort
 
 
 1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
