@@ -11,6 +11,7 @@
    We will label the nodes from 1 to n.
    m edges connect some pairs of nodes. Edges can be either one-directional or bidirectional.
    Nodes and Edges can have some auxiliary information.
+   
    A graph is a collection of pairs-pairs integers, pairs of people, pairs of cities, pairs of stars, pairs of countries
    pairs of scientific papers, pairs of web pages, pairs of game positions, pairs of recursive subproblems, even pairs of graphs.
    
