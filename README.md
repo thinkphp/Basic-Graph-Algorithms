@@ -5,6 +5,9 @@
 * 3) Storing Graphs
 * 4) Graph Traversal
 * 5) Topological Sort
+* 6) Eulerian Circuit
+* 7) Minimum Spaning Tree
+* 8) Strongly Connected Components
 
 
 * 1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
@@ -27,7 +30,7 @@
        * Traveling salesman problem ( still unsolved)
        * and many more.
    
- 3) Need to store both the set of nodes V and the set of edges E
+* 3) Need to store both the set of nodes V and the set of edges E
  
        * nodes can be store in an array.
        * edges must be stored in some other way.    
@@ -45,7 +48,7 @@
          
          Adjacency List
 
-  4) Graph Traversal
+ * 4) Graph Traversal
   
        * The most basic graph algorithm that visits the nodes of a graph in a certain order. 
        * Used as a subroutine in many other algorithms.
