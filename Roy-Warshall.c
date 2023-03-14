@@ -35,9 +35,9 @@ void displayMatrixCost() {
 }
 
 void RoyFloyd() {
-  for(int i=1;i<=nodes;++i) {
+ for(int k=1;k<=nodes;++k) {
+   for(int i=1;i<=nodes;++i) {
     for(int j=1;j<=nodes;++j) {
-        for(int k=1;k<=nodes;++k) {
             if(matrixCosts[i][j] > matrixCosts[i][k] + matrixCosts[k][j]) {
                matrixCosts[i][j] = matrixCosts[i][k] + matrixCosts[k][j];
             }
@@ -47,17 +47,26 @@ void RoyFloyd() {
 }
 
 void road(int i, int j) {
-     int k, found=1;
-     k = 1;
+
+     int k=1, found=0;
+    
+     
      while(k <= nodes && !found) {
-           if(i!=k && j!=k && matrixCosts[i][j] == matrixCosts[i][k] + matrixCosts[k][j]) {
-               road(i,k);
-               road(k,j);
-               found = 1;
-           }
-       k++;
-     }
-     if(found) printf("%d ", j);
+                
+           if(i != k && j != k && matrixCosts[ i ][ j ] == matrixCosts [i ][ k ] + matrixCosts[ k ] [ j ]) {
+
+               printf(" --> %d", k);	         
+               
+               road( i, k );
+               
+               road( k, j );
+               
+               found = 1;        
+               
+            }   	
+                     
+           k++;    
+     }         
 }
 
 void search(int startPoint, int endPoint) {
@@ -65,11 +74,16 @@ void search(int startPoint, int endPoint) {
      if(matrixCosts[startPoint][endPoint] < PINF) {
 
         printf("Shortest path from the point %d to the point %d has the length = %.3f", startPoint, endPoint, matrixCosts[startPoint][endPoint]);
-        printf("\nPath: %d ", startPoint);
+        
+        printf("\nPath: %d", startPoint);
+        
         road(startPoint, endPoint);
+        
+        printf(" --> %d\n", endPoint);
+        
      } else {
 
-       printf("Does not exist Road!");
+        printf("Does not exist path!");
 
      }
 }
@@ -77,11 +91,16 @@ void search(int startPoint, int endPoint) {
 int main(int argc, char const *argv[]) {
 
   int startPoint, endPoint;
+    
   readMatrixCost();
+    
   RoyFloyd();
-  displayMatrixCost();
-  startPoint = 5;
-  endPoint = 2;
+    
+  startPoint = 2;
+    
+  endPoint = 5;
+    
   search(startPoint, endPoint);
+    
   return 0;
 }
