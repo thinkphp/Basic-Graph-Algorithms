@@ -57,3 +57,6 @@
        We will cover two algorithms:
        * Depth First Search: uses recursion Stack.
        * Breadth First Search: uses queue.
+
+### References
+https://web.stanford.edu/class/cs97si/
