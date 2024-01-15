@@ -11,7 +11,7 @@
 * 9) Strongly Connected Components
 
 
-* 1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
+1) An abstract way of representing connectivity using nodes (also called vertices) and edges.
    We will label the nodes from 1 to n.
    m edges connect some pairs of nodes. Edges can be either one-directional or bidirectional.
    Nodes and Edges can have some auxiliary information.
@@ -21,7 +21,7 @@
    
   
   
-* 2) Lots of problems formulated and solved in terms of Graphs
+2) Lots of problems formulated and solved in terms of Graphs
 
        * Shortest path problems.
        * Network flow problems.
@@ -31,7 +31,7 @@
        * Traveling salesman problem ( still unsolved)
        * and many more.
    
-* 3) Need to store both the set of nodes V and the set of edges E
+3) Need to store both the set of nodes V and the set of edges E
  
        * nodes can be store in an array.
        * edges must be stored in some other way.    
@@ -49,7 +49,7 @@
          
          Adjacency List
 
- * 4) Graph Traversal
+ 4) Graph Traversal
   
        * The most basic graph algorithm that visits the nodes of a graph in a certain order. 
        * Used as a subroutine in many other algorithms.
