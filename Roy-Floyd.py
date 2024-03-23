@@ -41,7 +41,7 @@ def RoyFloyd():
         else:
             print("No Found.")
 
-    def RoyWarshall():
+    def Roy_Floyd():
         for k in range(1, nodes+1):
             for i in range(1, nodes+1):
                 for j in range(1, nodes+1):
@@ -79,7 +79,7 @@ def RoyFloyd():
 
         matrix[x][y] = c
 
-    RoyWarshall()
+    Roy_Floyd()
 
     startpoint = 1
 
