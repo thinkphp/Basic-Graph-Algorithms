@@ -59,4 +59,6 @@
        * Breadth First Search: uses queue.
 
 ### References
-https://web.stanford.edu/class/cs97si/
+
+- https://web.stanford.edu/class/cs97si/
+- https://cs.lmu.edu/~ray/notes/graphalgorithms/
